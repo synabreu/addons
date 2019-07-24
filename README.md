@@ -7,9 +7,9 @@
 [![PyPI Status Badge](https://badge.fury.io/py/tensorflow-addons.svg)](https://pypi.org/project/tensorflow-addons/)
 [![Gitter chat](https://img.shields.io/badge/chat-on%20gitter-46bc99.svg)](https://gitter.im/tensorflow/sig-addons)
 
-### Official Builds
+### 공식 빌드
 
-| Build Type      | Status |
+| 빌드 형태      | 상태 |
 | ---             | ---    |
 | **Linux Py2 CPU**   | [![Status](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-py2.svg)](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-py2.html) |
 | **Linux Py3 CPU**   | [![Status](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-py3.svg)](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-py3.html) |
@@ -17,16 +17,9 @@
 | **Linux Py3 GPU**   | [![Status](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-gpu-py3.svg)](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-gpu-py3.html) |
 | **Linux Sanity Check**   | [![Status](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-sanity.svg)](https://storage.googleapis.com/tensorflow-kokoro-build-badges/addons/ubuntu-sanity.html) |
 
-**TensorFlow Addons** is a repository of contributions that conform to
-well-established API patterns, but implement new functionality
-not available in core TensorFlow. TensorFlow natively supports
-a large number of operators, layers, metrics, losses, and optimizers.
-However, in a fast moving field like ML, there are many interesting new
-developments that cannot be integrated into core TensorFlow
-(because their broad applicability is not yet clear, or it is mostly
- used by a smaller subset of the community).
+**TensorFlow Addons** 는 잘 구성된 API 패턴들로 증명된 기여자들의 레포지토리이다. 코어 텐서플로우(TensorFlow)에서 사용할 수 없는 새로운 기능을 구현한다. 텐서플로우는 자생적으로 아주 큰 연산자(operators), 레이어(layers), 측정 기준(metrics), 손실(losses) 및 최적화(optimizers) 들을 지원한다. 그러나, ML과 같은 빠르게 움직이는 현장에서, 코어 텐서플로우에 통합될 수 없는 흥미롭고 새로운 개발 도구들이 많다. (왜냐하면 그것들의 넓은 가용성이 지금까지 완전하지 않거나, 텐서플로우 커뮤니티의 더 작은 서브셋으로만 대부분 사용되기 때문이다.) 
 
-## Maintainers
+## 유지 보수자들
 | Subpackage    | Maintainers  | Contact Info                        |
 |:----------------------- |:----------- |:----------------------------|
 | [tfa.activations](tensorflow_addons/activations/README.md) | SIG-Addons | @facaiy @seanpmorgan | 
